@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Guidewire Automation Suite">
+    <test name="PolicyCenter Tests">
+        <classes>
+            <class name="tests.CreateNewPolicyTest"/>
+        </classes>
+    </test>
+    <test name="ClaimCenter Tests">
+        <classes>
+            <class name="tests.FileFNOLTest"/>
+        </classes>
+    </test>
+    <test name="BillingCenter Tests">
+        <classes>
+            <class name="tests.ProcessPaymentTest"/>
+        </classes>
+    </test>
+</suite>
